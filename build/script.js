@@ -7,10 +7,8 @@ function changeListener(event){
         if(element && element.children[1])
         {
             if(element.children[1].classList.contains('history__hide'))
-                element.children[1].classList.replace('history__hide','history__show');
+               element.children[1].classList.replace('history__hide','history__show');
             else 
-                element.children[1].classList.replace('history__show','history__hide');
+               element.children[1].classList.replace('history__show','history__hide');
         }
-    
     }
-document.body.addEventListener('click',changeListener);
